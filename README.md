@@ -31,3 +31,6 @@ transporter.sendMail(data[, callback])
           - info.pending is an array returned by Direct SMTP transport. Includes recipient addresses that were temporarily rejected together with the server response
           - response is a string returned by SMTP transports and includes the last SMTP response from the server
 ** bulk mail ** = if you need to send 10 million messages at once.
+** CC ** = send a copy from the message to specific one <br>
+** BBC ** = it is best to use the Blind Carbon Copy (BCC) feature when sending an email message to a large number of people. When you place email addresses in the BCC field of a message, those addresses are invisible to the recipients of the email. <br>
+
